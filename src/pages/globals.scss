@@ -6,7 +6,7 @@
 
 @layer base {
   html {
-    @apply font-roboto text-gray-900;
+    @apply font-roboto text-gray-900 box-border;
   }
 
   input:focus,
@@ -22,7 +22,7 @@
   @font-face {
     font-family: Intro;
     font-weight: 100;
-    src: local('Intro'), url(/fonts/intro/intro_thin.woff2) format("woff");
+    src: url(/fonts/intro/intro_thin.woff2) format("woff");
   }
 
   @font-face {

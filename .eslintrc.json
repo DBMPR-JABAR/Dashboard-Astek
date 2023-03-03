@@ -23,6 +23,7 @@
     "no-plusplus": "off",
     "class-methods-use-this": "off",
     "no-loop-func": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "jsx-a11y/label-has-associated-control": "off"
   }
 }
